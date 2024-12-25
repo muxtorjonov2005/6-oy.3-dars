@@ -1,8 +1,9 @@
+import styles from './index.module.css'
 function Users(props) {
   const {image, firstName, lastName, phone, email, address, cars} = props.data
   return (
-    <div>
-      <div className="user_img">{image}</div>
+    <div className={styles.user_item} >
+      <img src={image} alt="User image" />
       <h3>
         {firstName} {lastName}
       </h3>
