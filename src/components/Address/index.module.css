@@ -1,0 +1,27 @@
+.user_address {
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(227, 126, 17);
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.user_address span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user_address div {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.user_address p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+}

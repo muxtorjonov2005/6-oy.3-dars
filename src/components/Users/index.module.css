@@ -1,15 +1,36 @@
 .user_item {
-    width: 300px;
-    padding: 10px 20px;
+    width: 350px;
+    padding: 15px 20px;
     border: 1px solid #000;
-    border-radius: 5px;
+    background-color: aliceblue;
 }
 
 .user_item img{
-    width: 300px;
+    width: 310px;
     height: 250px;
+    margin-bottom: 18px;
 }
 
 .user_item h3 {
     text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.user_email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_email a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.user_email a:hover {
+    color: blue;
+    text-decoration: underline;
 }
